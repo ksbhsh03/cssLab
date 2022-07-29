@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .sample1{
+                border: 10px double darkred;
+                padding:20px;
+                background-color: yellow;
+            }
+            .sample2{
+                border: 10px double darkred;
+                padding:20px;
+                background-color: yellow;
+                background-clip: padding-box;
+            }
+            .sample3{
+                border: 10px double darkred;
+                padding:20px;
+                background-color: yellow;
+                background-clip: content-box;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="sample1">
+            <p> background-clip 적용안함</p>
+            <p> background-clip 적용안함</p>
+        </div>
+        <br>
+        <div class="sample2">
+            <p>background-clip: padding-box 적용</p>
+            <p>background-clip: padding-box 적용</p>
+        </div>
+        <br>
+        <div class="sample3">
+            <p>background-clip: content-box 적용</p>
+            <p>background-clip: content-box 적용</p>
+        </div>
+    </body>
+</html>
