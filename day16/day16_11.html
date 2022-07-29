@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    .smaple1{
+        width: 100px;
+        height: 100px;
+        background: yellow;
+        transition: width 4s;
+        transition-timing-function: ease-in;
+        transition: width 2s, height 4s transform 6s;
+  
+        
+    }
+    .smaple1:hover{
+        width: 200px;
+        height: 200px;
+        transform: rotate(180deg);
+    }
+    .sample2{
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        transition:width 2s, height 4s transform 6s;
+    }
+    .sample2:hover{
+        width: 200px;
+        height: 200px;
+        transform:scaleX(20deg)
+    }
+</style>
+</head>
+<body>
+    <p>transition과 <transform:rotate></transform:rotate></p>
+    <div class="smaple1"></div>
+    <p>transform과 transform:skewX</p>
+    <div class="sample2"></div>
+</body>
+</html>
